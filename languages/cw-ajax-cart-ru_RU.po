@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CW ajax cart\n"
+"POT-Creation-Date: 2018-03-05 21:16+0200\n"
+"PO-Revision-Date: 2018-03-05 21:16+0200\n"
+"Last-Translator: Igor Tkachenko <algiz@bigmir.net>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cw-shopping-cart.php:43 cw-shopping-cart.php:98 cw-shopping-cart.php:99
+msgid "Coupons"
+msgstr "Купоны"
+
+#: cw-shopping-cart.php:44 includes/class-cw-mail.php:99
+#: includes/functions.php:422 includes/shortcodes.php:255
+msgid "Coupon"
+msgstr "Купон"
+
+#: cw-shopping-cart.php:45 cw-shopping-cart.php:46
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: cw-shopping-cart.php:47
+msgid "Edit coupon"
+msgstr "Редактировать купон"
+
+#: cw-shopping-cart.php:48
+msgid "New coupon"
+msgstr "Новый купон"
+
+#: cw-shopping-cart.php:49
+msgid "View coupon"
+msgstr "Просмотреть купон"
+
+#: cw-shopping-cart.php:50
+msgid "Search coupons"
+msgstr "Найти купоны"
+
+#: cw-shopping-cart.php:51
+msgid "No coupons found"
+msgstr "Купоны не найдены"
+
+#: cw-shopping-cart.php:52
+msgid "No coupons found in Trash"
+msgstr "В корзине нет купонов"
+
+#: cw-shopping-cart.php:89 cw-shopping-cart.php:90 includes/functions.php:314
+msgid "Orders"
+msgstr "Заказы"
+
+#: cw-shopping-cart.php:259 includes/functions.php:268
+#: includes/settings.php:359
+msgid "Added to cart"
+msgstr "Добавлен в корзину"
+
+#: cw-shopping-cart.php:277 includes/shortcodes.php:113
+#: includes/shortcodes.php:365
+msgid "Cart is empty"
+msgstr "Корзина пуста"
+
+#: cw-shopping-cart.php:278
+msgid "Coupon successfully applied"
+msgstr "Купон успешно применен"
+
+#: cw-shopping-cart.php:279
+msgid "Coupon is not valid"
+msgstr "Купон не верный"
+
+#: includes/class-cw-cart.php:186
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s товар"
+msgstr[1] "%s товара"
+msgstr[2] "%s товаров"
+
+#: includes/class-cw-mail.php:23
+#, php-format
+msgid "Your order №%d accepted"
+msgstr "Ваш заказ №%d принят"
+
+#: includes/class-cw-mail.php:31
+msgid "new order"
+msgstr "новый заказ"
+
+#: includes/class-cw-mail.php:56 includes/functions.php:374
+#: includes/shortcodes.php:149
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/class-cw-mail.php:57 includes/functions.php:375
+#: includes/shortcodes.php:150
+msgid "Price"
+msgstr "Цена"
+
+#: includes/class-cw-mail.php:58 includes/functions.php:376
+#: includes/shortcodes.php:151
+msgid "Quantity"
+msgstr "Количество"
+
+#: includes/class-cw-mail.php:59 includes/class-cw-mail.php:106
+#: includes/functions.php:377 includes/functions.php:430
+#: includes/shortcodes.php:152 includes/shortcodes.php:290
+msgid "Total"
+msgstr "Итого"
+
+#: includes/class-cw-mail.php:85 includes/functions.php:401
+#: includes/shortcodes.php:273
+msgid "Subtotal"
+msgstr "Всего"
+
+#: includes/class-cw-mail.php:133
+#, php-format
+msgid "New order №%d ( %s )"
+msgstr "Новый заказ №%d ( %s ) "
+
+#: includes/class-cw-mail.php:139 includes/class-cw-mail.php:160
+msgid "Client information"
+msgstr "Информация о клиенте"
+
+#: includes/class-cw-mail.php:154
+#, php-format
+msgid "Your order №%d ( %s )"
+msgstr "Ваш заказ №%d ( %s )"
+
+#: includes/class-cw-mail.php:187 includes/settings.php:463
+msgid "Order has been sent successfully"
+msgstr "Заказ успешно отправлен"
+
+#: includes/class-cw-mail.php:195
+msgid "Failed order"
+msgstr "Не удалось отправить заказ"
+
+#: includes/functions.php:34
+msgid "Regular price"
+msgstr "Цена"
+
+#: includes/functions.php:35
+msgid "Old price"
+msgstr "Старая цена"
+
+#: includes/functions.php:74 includes/functions.php:91
+msgid "Discount"
+msgstr "Скидка"
+
+#: includes/functions.php:86
+msgid "Coupon code"
+msgstr "Код купона"
+
+#: includes/functions.php:88
+msgid "Coupon type"
+msgstr "Тип купона"
+
+#: includes/functions.php:89
+msgid "Fixed price"
+msgstr "Фиксированная сумма"
+
+#: includes/functions.php:90
+msgid "Percent"
+msgstr "Процент от суммы"
+
+#: includes/functions.php:338 includes/functions.php:358
+msgid "Order ID"
+msgstr "Заказ №"
+
+#: includes/functions.php:339 includes/functions.php:359
+msgid "Date"
+msgstr "Дата"
+
+#: includes/functions.php:340 includes/functions.php:360
+msgid "Order info"
+msgstr "Информация о заказе"
+
+#: includes/functions.php:341
+msgid "Products"
+msgstr "Товары"
+
+#: includes/functions.php:342
+msgid "Status"
+msgstr "Статус"
+
+#: includes/functions.php:448
+msgid "Processing"
+msgstr "В обработке"
+
+#: includes/functions.php:449
+msgid "Completed"
+msgstr "Обработан"
+
+#: includes/functions.php:451
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/settings.php:31
+msgid "General settings"
+msgstr "Основные настройки"
+
+#: includes/settings.php:32
+msgid "Checkout settings"
+msgstr "Настройки оформления заказа"
+
+#: includes/settings.php:33
+msgid "Email settings"
+msgstr "Настройки email"
+
+#: includes/settings.php:38
+msgid "Cart page"
+msgstr "Страница корзины"
+
+#: includes/settings.php:46 includes/settings.php:246
+msgid "Choose post type"
+msgstr "Выберите тип записи"
+
+#: includes/settings.php:54
+msgid "Link text in minicart"
+msgstr "Текст ссылки в миникорзине"
+
+#: includes/settings.php:62
+msgid "Show info about products in minicart"
+msgstr "Показывать информацию о товарах в миникорзине"
+
+#: includes/settings.php:70
+msgid "Brief or detailed information in minicart"
+msgstr "Краткая или полная информация в миникорзине"
+
+#: includes/settings.php:78
+msgid "Currency ($, rub)"
+msgstr "Валюта ($, руб)"
+
+#: includes/settings.php:86
+msgid "Show add to cart button on single page (using the_content hook)"
+msgstr ""
+"Выводить кнопку \"Добавить в корзину\" на странице товара (используется хук "
+"the_content)"
+
+#: includes/settings.php:94
+msgid "Message after adding to cart"
+msgstr "Сообщение после добавления товара в корзину"
+
+#: includes/settings.php:102
+msgid "Kind of message after adding of the product"
+msgstr "Тип сообщения после добавления товара в корзину"
+
+#: includes/settings.php:110
+msgid "Fields when ordering"
+msgstr "Поля для оформления заказа"
+
+#: includes/settings.php:118
+msgid "Apply coupons"
+msgstr "Применить купоны"
+
+#: includes/settings.php:127
+msgid "Action after successful checkout"
+msgstr "Действие после успешной отправки заказа"
+
+#: includes/settings.php:135
+msgid "Success message ordering"
+msgstr "Сообщение при успешной отправке заказа"
+
+#: includes/settings.php:143 includes/settings.php:448
+msgid "Redirect to page"
+msgstr "Перенаправление на страницу"
+
+#: includes/settings.php:152
+msgid "Recipient"
+msgstr "Получатель"
+
+#: includes/settings.php:160
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/settings.php:168
+msgid "\"From\" Name"
+msgstr "\"От кого\" имя"
+
+#: includes/settings.php:176
+msgid "\"From\" Address"
+msgstr "\"От кого\" адрес"
+
+#: includes/settings.php:184
+msgid "Send email to the client"
+msgstr "Отправить email с информацией о заказе клиенту"
+
+#: includes/settings.php:273 includes/shortcodes.php:25
+msgid "Cart"
+msgstr "Корзина"
+
+#: includes/settings.php:308
+msgid "Short information (only number of products)"
+msgstr "Краткая информация (только количество товаров)"
+
+#: includes/settings.php:310
+msgid "Complete information"
+msgstr "Полная информация"
+
+#: includes/settings.php:375
+msgid "Text (near adding to cart button)"
+msgstr "Текст (возле кнопки Добавить в корзину)"
+
+#: includes/settings.php:377
+msgid "Popup"
+msgstr "Всплывающее окно"
+
+#: includes/settings.php:446
+msgid "Success message in popup"
+msgstr "Сообщение во всплывающем окне"
+
+#: includes/shortcodes.php:63 includes/shortcodes.php:90
+msgid "Add to cart"
+msgstr "В корзину"
+
+#: includes/shortcodes.php:260
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/shortcodes.php:261
+msgid "Reset"
+msgstr "Сбросить"
+
+#: includes/shortcodes.php:298
+msgid "Checkout"
+msgstr "Оформить заказ"
+
+#: includes/shortcodes.php:327
+msgid "Message"
+msgstr "Сообщение"
+
+#: includes/shortcodes.php:334
+msgid "Name"
+msgstr "Имя"
+
+#: includes/shortcodes.php:336
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/shortcodes.php:338
+msgid "Email"
+msgstr "Email"
+
+#: includes/shortcodes.php:340
+msgid "Address"
+msgstr "Адрес"
+
+#: includes/shortcodes.php:353
+msgid "Send"
+msgstr "Отправить"
+
+#: includes/widget.php:8
+msgid "Showing minicart"
+msgstr "Вывести миникорзину"

@@ -1,0 +1,343 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CW ajax cart\n"
+"POT-Creation-Date: 2018-03-05 21:10+0200\n"
+"PO-Revision-Date: 2017-02-26 21:57+0200\n"
+"Last-Translator: Igor Tkachenko <algiz@bigmir.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cw-shopping-cart.php:43 cw-shopping-cart.php:98 cw-shopping-cart.php:99
+msgid "Coupons"
+msgstr ""
+
+#: cw-shopping-cart.php:44 includes/class-cw-mail.php:99
+#: includes/functions.php:422 includes/shortcodes.php:255
+msgid "Coupon"
+msgstr ""
+
+#: cw-shopping-cart.php:45 cw-shopping-cart.php:46
+msgid "Add New"
+msgstr ""
+
+#: cw-shopping-cart.php:47
+msgid "Edit coupon"
+msgstr ""
+
+#: cw-shopping-cart.php:48
+msgid "New coupon"
+msgstr ""
+
+#: cw-shopping-cart.php:49
+msgid "View coupon"
+msgstr ""
+
+#: cw-shopping-cart.php:50
+msgid "Search coupons"
+msgstr ""
+
+#: cw-shopping-cart.php:51
+msgid "No coupons found"
+msgstr ""
+
+#: cw-shopping-cart.php:52
+msgid "No coupons found in Trash"
+msgstr ""
+
+#: cw-shopping-cart.php:89 cw-shopping-cart.php:90
+#: includes/functions.php:314
+msgid "Orders"
+msgstr ""
+
+#: cw-shopping-cart.php:259 includes/functions.php:268
+#: includes/settings.php:359
+msgid "Added to cart"
+msgstr ""
+
+#: cw-shopping-cart.php:277 includes/shortcodes.php:113
+#: includes/shortcodes.php:353
+msgid "Cart is empty"
+msgstr ""
+
+#: cw-shopping-cart.php:278
+msgid "Coupon successfully applied"
+msgstr ""
+
+#: cw-shopping-cart.php:279
+msgid "Coupon is not valid"
+msgstr ""
+
+#: includes/class-cw-cart.php:186
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/class-cw-mail.php:23
+#, php-format
+msgid "Your order №%d accepted"
+msgstr ""
+
+#: includes/class-cw-mail.php:31
+msgid "new order"
+msgstr ""
+
+#: includes/class-cw-mail.php:56 includes/functions.php:374
+#: includes/shortcodes.php:149
+msgid "Title"
+msgstr ""
+
+#: includes/class-cw-mail.php:57 includes/functions.php:375
+#: includes/shortcodes.php:150
+msgid "Price"
+msgstr ""
+
+#: includes/class-cw-mail.php:58 includes/functions.php:376
+#: includes/shortcodes.php:151
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-cw-mail.php:59 includes/class-cw-mail.php:106
+#: includes/functions.php:377 includes/functions.php:430
+#: includes/shortcodes.php:152 includes/shortcodes.php:290
+msgid "Total"
+msgstr ""
+
+#: includes/class-cw-mail.php:85 includes/functions.php:401
+#: includes/shortcodes.php:273
+msgid "Subtotal"
+msgstr ""
+
+#: includes/class-cw-mail.php:133
+#, php-format
+msgid "New order №%d ( %s )"
+msgstr ""
+
+#: includes/class-cw-mail.php:139 includes/class-cw-mail.php:160
+msgid "Client information"
+msgstr ""
+
+#: includes/class-cw-mail.php:154
+#, php-format
+msgid "Your order №%d ( %s )"
+msgstr ""
+
+#: includes/class-cw-mail.php:187 includes/settings.php:463
+msgid "Order has been sent successfully"
+msgstr ""
+
+#: includes/class-cw-mail.php:195
+msgid "Failed order"
+msgstr ""
+
+#: includes/functions.php:34
+msgid "Regular price"
+msgstr ""
+
+#: includes/functions.php:35
+msgid "Old price"
+msgstr ""
+
+#: includes/functions.php:74 includes/functions.php:91
+msgid "Discount"
+msgstr ""
+
+#: includes/functions.php:86
+msgid "Coupon code"
+msgstr ""
+
+#: includes/functions.php:88
+msgid "Coupon type"
+msgstr ""
+
+#: includes/functions.php:89
+msgid "Fixed price"
+msgstr ""
+
+#: includes/functions.php:90
+msgid "Percent"
+msgstr ""
+
+#: includes/functions.php:338 includes/functions.php:358
+msgid "Order ID"
+msgstr ""
+
+#: includes/functions.php:339 includes/functions.php:359
+msgid "Date"
+msgstr ""
+
+#: includes/functions.php:340 includes/functions.php:360
+msgid "Order info"
+msgstr ""
+
+#: includes/functions.php:341
+msgid "Products"
+msgstr ""
+
+#: includes/functions.php:342
+msgid "Status"
+msgstr ""
+
+#: includes/functions.php:448
+msgid "Processing"
+msgstr ""
+
+#: includes/functions.php:449
+msgid "Completed"
+msgstr ""
+
+#: includes/functions.php:451
+msgid "Update"
+msgstr ""
+
+#: includes/settings.php:31
+msgid "General settings"
+msgstr ""
+
+#: includes/settings.php:32
+msgid "Checkout settings"
+msgstr ""
+
+#: includes/settings.php:33
+msgid "Email settings"
+msgstr ""
+
+#: includes/settings.php:38
+msgid "Cart page"
+msgstr ""
+
+#: includes/settings.php:46 includes/settings.php:246
+msgid "Choose post type"
+msgstr ""
+
+#: includes/settings.php:54
+msgid "Link text in minicart"
+msgstr ""
+
+#: includes/settings.php:62
+msgid "Show info about products in minicart"
+msgstr ""
+
+#: includes/settings.php:70
+msgid "Brief or detailed information in minicart"
+msgstr ""
+
+#: includes/settings.php:78
+msgid "Currency ($, rub)"
+msgstr ""
+
+#: includes/settings.php:86
+msgid "Show add to cart button on single page (using the_content hook)"
+msgstr ""
+
+#: includes/settings.php:94
+msgid "Message after adding to cart"
+msgstr ""
+
+#: includes/settings.php:102
+msgid "Kind of message after adding of the product"
+msgstr ""
+
+#: includes/settings.php:110
+msgid "Fields when ordering"
+msgstr ""
+
+#: includes/settings.php:118
+msgid "Apply coupons"
+msgstr ""
+
+#: includes/settings.php:127
+msgid "Action after successful checkout"
+msgstr ""
+
+#: includes/settings.php:135
+msgid "Success message ordering"
+msgstr ""
+
+#: includes/settings.php:143 includes/settings.php:448
+msgid "Redirect to page"
+msgstr ""
+
+#: includes/settings.php:152
+msgid "Recipient"
+msgstr ""
+
+#: includes/settings.php:160
+msgid "Subject"
+msgstr ""
+
+#: includes/settings.php:168
+msgid "\"From\" Name"
+msgstr ""
+
+#: includes/settings.php:176
+msgid "\"From\" Address"
+msgstr ""
+
+#: includes/settings.php:184
+msgid "Send email to the client"
+msgstr ""
+
+#: includes/settings.php:273 includes/shortcodes.php:25
+msgid "Cart"
+msgstr ""
+
+#: includes/settings.php:308
+msgid "Short information (only number of products)"
+msgstr ""
+
+#: includes/settings.php:310
+msgid "Complete information"
+msgstr ""
+
+#: includes/settings.php:375
+msgid "Text (near adding to cart button)"
+msgstr ""
+
+#: includes/settings.php:377
+msgid "Popup"
+msgstr ""
+
+#: includes/settings.php:446
+msgid "Success message in popup"
+msgstr ""
+
+#: includes/shortcodes.php:63 includes/shortcodes.php:90
+msgid "Add to cart"
+msgstr ""
+
+#: includes/shortcodes.php:260
+msgid "Apply"
+msgstr ""
+
+#: includes/shortcodes.php:261
+msgid "Reset"
+msgstr ""
+
+#: includes/shortcodes.php:298
+msgid "Checkout"
+msgstr ""
+
+#: includes/shortcodes.php:327
+msgid "Message"
+msgstr ""
+
+#: includes/shortcodes.php:341
+msgid "Send"
+msgstr ""
+
+#: includes/widget.php:8
+msgid "Showing minicart"
+msgstr ""

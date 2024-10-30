@@ -1,0 +1,311 @@
+.cw-minicart,
+.cw-minicart * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cw-minicart {    
+	float: right;
+    position: relative;
+}
+.cw-minicart-link {
+    padding-left: 45px;
+    text-decoration: none;
+    display: inline-block;
+    color: #212121;
+    position: relative;
+    z-index: 5;
+}
+.cw-minicart-link-title {
+    display: block;
+}
+.short-info .cw-minicart-link-title {
+    padding-top: 8px;
+}
+.cw-minicart-info {
+    display: block;
+}
+.short-info .cw-minicart-info {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    background: #fff;
+    color: #212121;
+    left: 15px;
+    top: -7px;
+    border: 2px solid #212121;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.cw-cart-icon {
+    width: 32px;
+    height: 32px;
+    background: url(../images/shopping-cart.png) no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.single-product-cart {
+    margin-bottom: 20px;
+}
+.cw-price {
+    margin-bottom: 10px;
+}
+.cw-price-old {
+    display: block;
+    text-decoration: line-through;
+    color: #777;
+}
+.cw-price-new {
+    font-size: 2em;
+}
+.single-cart-quantity {
+    display: inline-block;
+    margin-right: 30px;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button { 
+    display: none;
+}
+.cw-cart-quantity .product-qty {
+    padding: 5px 0 5px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+.cw-cart-quantity .cw-minus,
+.cw-cart-quantity .cw-plus {
+    padding: 2px 7px;
+    font-weight: 700;
+    font-size: 20px;
+    background: #ddd;
+    vertical-align: middle;
+}
+.cw-cart-quantity .cw-minus:hover, 
+.cw-cart-quantity .cw-plus:hover {
+    color: #fff;
+}
+.add-to-cart-button {
+    padding: 6px 10px;
+    background: #418bd7;
+    border: 1px solid #0073aa;
+    border-radius: 4px;
+    color:#fff;  
+}
+.add-to-cart-button:hover {
+    background: #418B9E;
+}
+.single-cart-msg {
+    margin-top:10px;
+    padding:5px 15px;
+    border:1px solid #ff0000;
+}
+
+/** Page Cart **/
+
+#cw-cart-page-wrap {
+    padding-bottom: 30px;
+}
+#cw-cart-table-wrap {
+    overflow: auto;
+}
+#cw-cart-table {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-collapse: separate;
+    margin-bottom: 20px;
+}
+#cw-cart-table td,
+#cw-cart-table th {
+    padding:10px 10px;
+    text-align: left;
+}
+#cw-cart-table th {
+    background: #f5f5f5;
+}
+.cw-table-top {
+    font-size:16px;
+}
+#cw-cart-table td .cw-table-top td {
+    padding:15px 10px;
+}
+.cw-product-item td {
+    border-top:1px solid #e6e6e6;
+}
+.cw-product-name a {
+    color: #212121;
+    text-decoration: none;
+}
+.cw-product-name a:hover {
+    text-decoration: underline;
+}
+#cw-cart-table .cw-product-remove {
+    text-align: center;
+    width: 50px;
+}
+.cw-product-thumbnail img {
+    margin: 0 auto;
+}
+.cart-remove-item {
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    display: inline-block;
+}
+.cw-remove-id {
+    display: none;
+}
+.cw-cart-totals {
+    text-align:right;
+}
+.cw-total-subtitle,
+.cw-total-sum,
+.cw-subtotal-sum {
+    display:inline-block;
+}
+.cw-total-row{
+    margin-bottom:10px;
+    font-size:26px;
+}
+#cw-cart-table .cw-cart-quantity {
+    text-align: center;
+}
+.cart-empty {
+    font-size: 38px;
+    text-align: center;
+    padding-bottom:20px;
+}
+.make-order-button {
+    padding-top: 20px;
+}
+.make-order-button button {
+    padding: 5px 15px;
+    background: #00a0d2;
+    border: 1px solid #0073aa;
+    color: #fff;
+    border-radius: 4px;
+}
+.make-order-button button:hover {
+    background: #0091cd;
+}
+.cart-coupon {
+    margin-bottom: 15px;
+}
+.cart-coupon-title {
+    margin-bottom: 15px;
+}
+.coupon-input-wrap {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.cart-coupon input#coupon {
+    border: 1px solid #dddddd;
+    margin: 0 10px 10px 0;
+    padding: 7px;
+    width: auto;
+    vertical-align: top;
+}
+#apply_coupon,
+#remove_coupon {
+    display: inline-block;
+    padding: 5px 20px 7px;
+    background: #666;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    line-height: inherit;
+    border: 0;
+}
+#apply_coupon:hover,
+#remove_coupon:hover {
+    background: #bbb;
+}
+
+/** Popup **/
+
+.popup-cart-msg {
+    padding: 20px 6px;
+    font-size: 20px;
+    text-align: center;
+}
+#cw_popup {
+    max-width: 300px;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+}
+#cw_popup_wrap *,
+#popup_cart_added * {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+#cw_popup form input.cw-input-not-valid {
+    border: 1px solid red;
+}
+.cw-input-wrap {
+    display: block;
+}
+#cw_popup input,
+#cw_popup textarea {
+    border: 1px solid #666;
+    padding:5px 5px 5px 10px;
+    margin-bottom: 15px;
+}
+#cw_popup textarea {
+    height: 70px;
+    resize: vertical;
+}
+#cw_popup input[type="submit"] {
+    padding: 5px 15px;
+    background: #00a0d2;
+    border: 1px solid #0073aa;
+    color: #fff;
+    border-radius: 3px;
+    margin: 0;
+}
+#cw_popup input[type="submit"]:hover {
+    background: #0091cd;
+}
+.cw-success-send {
+    font-size: 28px;
+}
+#cw-form-preloader {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../images/preloader.gif);
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0.8);
+    background-position: 50% 50%;
+    display: none;
+}
+
+/** **/
+@media only screen and (max-width : 992px) {
+    .cw-total-row {
+        font-size: 20px;
+    }
+    .coupon-input-wrap {
+        display: block;
+    }
+}
